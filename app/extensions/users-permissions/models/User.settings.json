@@ -59,10 +59,6 @@
       "plugin": "users-permissions",
       "configurable": false
     },
-    "blog_posts": {
-      "via": "user",
-      "collection": "blog"
-    },
     "portrait": {
       "model": "file",
       "via": "related",
@@ -74,6 +70,10 @@
       "plugin": "upload",
       "required": false,
       "pluginOptions": {}
+    },
+    "articles": {
+      "via": "user",
+      "collection": "article"
     }
   }
 }
