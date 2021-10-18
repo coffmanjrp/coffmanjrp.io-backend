@@ -36,6 +36,11 @@
     },
     "links": {
       "type": "json"
+    },
+    "show": {
+      "type": "boolean",
+      "default": false,
+      "required": true
     }
   }
 }
