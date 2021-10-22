@@ -84,6 +84,7 @@ public/uploads/*
 !public/uploads/.gitkeep
 package-lock.json
 yarn.lock
+app/.gitignore
 
 ############################
 # Node.js
